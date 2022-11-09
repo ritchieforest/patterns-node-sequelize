@@ -14,6 +14,8 @@ Nos quedaría sys_[cuatro letras que representen la tabla]_[numero de tabla]_[no
 
 En cuanto a la estructura de directorios en la carpeta config y posicionado en la misma desde la terminal, se encuentra todos los archivos que al ejectutarse como:
 
+### node [nombre del archivo]
+
 ## Nota Importante
 
 No se olvide de colocar en el archivo database.js los parametros de conexion. 
@@ -21,7 +23,7 @@ No se olvide de colocar en el archivo database.js los parametros de conexion.
 Dentro de la carpeta de models se encuentra el archivo index.js, si lo ejecuta con el comando , se crean los modelos que corresponden o que se encuentran en la carpeta de models, en su bases de datos
 ### node index.js
 
-### node [nombre del archivo]
+
 
 se creara los archivos correspondientes a la misma.
 
