@@ -13,6 +13,14 @@ Tabla: sys_targ_01_tajeta
 Nos quedaría sys_[cuatro letras que representen la tabla]_[numero de tabla]_[nombre de la tabla]
 
 En cuanto a la estructura de directorios en la carpeta config y posicionado en la misma desde la terminal, se encuentra todos los archivos que al ejectutarse como:
+
+## Nota Importante
+
+No se olvide de colocar en el archivo database.js los parametros de conexion. 
+
+Dentro de la carpeta de models se encuentra el archivo index.js, si lo ejecuta con el comando , se crean los modelos que corresponden o que se encuentran en la carpeta de models, en su bases de datos
+### node index.js
+
 ### node [nombre del archivo]
 
 se creara los archivos correspondientes a la misma.
@@ -20,6 +28,8 @@ se creara los archivos correspondientes a la misma.
 ## Comandos disponibles
 
 Como mencione anteriormente los comandos disponibles solamente se ejecutan si desde la terminal se encuentra dentro de la carpeta
+
+
 
 ### node configTableAndRelationship.js
 Este comando crea un archivo con todas las tablas, campos, relaciones foraneas, y su columnas referenciadas, que sera necesario para que los demas archivos  en un formato de json y lo exporta para luego ser utilizado por las demas funciones.
@@ -31,6 +41,12 @@ Este comando crea todos los archivos de validación que corresponden a saber si 
 ### node ConfigValidation.js
 
 Este comando crea todos los archivos que corresponden a las validaciones de express-validation dentro de la carpeta validaciones
+
+
+
+
+Se que hay mucho que mejorar o que se pudo hacer mejor, y estaría encantado que lo mejoren.
+
 
 
 
