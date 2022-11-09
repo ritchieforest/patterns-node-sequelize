@@ -1,9 +1,9 @@
 # patterns-node-sequelize
 
-Este proyecto nacio con la finalidad de disminuir el tiempo de desarrollo de APIs
-Pero para la misma, se deben cumplir ciertos requisitos.
+Este proyecto nacio con la finalidad de disminuir el tiempo de desarrollo de APIs. Pero para la misma, se deben cumplir ciertos requisitos.
 
 1-Los esquemas de bases de datos deben seguir alguna nomenclatura de creación ej:
+
 Tabla: sys_targ_01_tajeta
 --campo:systarg01_descripcion
 --primary-key: id_systarg01
